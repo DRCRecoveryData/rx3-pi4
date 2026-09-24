@@ -45,8 +45,9 @@ Move it to USB 2.0:
 ## Install
 
 ```bash
-bash ~/rx3-pi4-install.sh 2>&1 | tee ~/rx3-install.log
-sudo reboot
+cd ~/rx3-pi4
+chmod +x rx3-pi4-install.sh
+bash rx3-pi4-install.sh 2>&1 | tee ~/rx3-install.log
 ```
 
 The installer:
